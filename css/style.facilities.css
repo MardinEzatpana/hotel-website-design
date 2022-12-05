@@ -1,0 +1,572 @@
+header {
+  width: 100%;
+  height: 1080px;
+  background: url("/images/palm-trees.png") no-repeat center center/cover;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  background: rgba(20, 39, 74, 0.5);
+}
+
+/* main */
+
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 7870px;
+}
+
+main .title {
+  width: 95%;
+  margin: 82px 40px 82px 40px;
+}
+
+main .title h2 {
+  height: 72px;
+  font-family: 'Assistant';
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  color: var(--dark-blue-color);
+}
+
+main .title p {
+  height: 110px;
+  margin-top: 34px;
+  font-family: 'Montserrat';
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 25px;
+  color: var(--dark-blue-color);
+}
+
+main .title p span {
+  display: flex;
+  justify-content: center;
+}
+
+.gym {
+  position: relative;
+  width: 80%;
+  height: 1052px;
+  margin-left: 173px;
+  background: rgba(20, 39, 74, 0.3);
+}
+.gym img{
+  width: 100%;
+  height: 100%;
+}
+
+.gym::before {
+  width: 50%;
+  height: 75px;
+  position: absolute;
+  content: 'THE GYM';
+  background: #fff;
+  top: 977px;
+  left: 23%;
+  z-index: 1;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  font-size: 48px;
+  color: var(--dark-blue-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  position: relative;
+  width: 80%;
+  height: 972px;
+  margin: 182px 0 0 173px;
+  background: rgba(20, 39, 74, 0.3);
+}
+
+.bar img{
+  width: 100%;
+  height: 100%;
+}
+
+.bar::before {
+  width: 50%;
+  height: 75px;
+  position: absolute;
+  content: 'POOLSIDE BAR';
+  background: #fff;
+  top: 897px;
+  left: 23%;
+  z-index: 1;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  font-size: 48px;
+  color: var(--dark-blue-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spa {
+  position: relative;
+  width: 80%;
+  height: 1054px;
+  margin: 182px 0 0 173px;
+  background: rgba(20, 39, 74, 0.3);
+}
+
+.spa img{
+  width: 100%;
+  height: 100%;
+}
+
+.spa::before {
+  width: 50%;
+  height: 75px;
+  position: absolute;
+  content: 'THE SPA';
+  background: #fff;
+  top: 979px;
+  left: 23%;
+  z-index: 1;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  font-size: 48px;
+  color: var(--dark-blue-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swimpool {
+  position: relative;
+  width: 80%;
+  height: 888px;
+  margin: 182px 0 0 173px;
+  background: rgba(20, 39, 74, 0.3);
+}
+
+.swimpool img{
+  width: 100%;
+  height: 100%;
+}
+
+.swimpool::before {
+  width: 50%;
+  height: 75px;
+  position: absolute;
+  content: 'SWIMMING POOL';
+  background: #fff;
+  top: 813px;
+  left: 23%;
+  z-index: 1;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  font-size: 48px;
+  color: var(--dark-blue-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.restaurant {
+  position: relative;
+  width: 80%;
+  height: 1054px;
+  margin: 182px 0 0 173px;
+  background: rgba(20, 39, 74, 0.3);
+}
+
+.restaurant img{
+  width: 100%;
+  height: 100%;
+}
+
+.restaurant::before {
+  width: 50%;
+  height: 75px;
+  position: absolute;
+  content: 'RESTAURANT';
+  background: #fff;
+  top: 979px;
+  left: 23%;
+  z-index: 1;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  font-size: 48px;
+  color: var(--dark-blue-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.laundry {
+  position: relative;
+  width: 80%;
+  height: 1060px;
+  margin: 182px 0 0 173px;
+  background: rgba(20, 39, 74, 0.3);
+}
+
+.laundry img{
+  width: 100%;
+  height: 100%;
+}
+
+.laundry::before {
+  width: 50%;
+  height: 75px;
+  position: absolute;
+  content: 'LAUNDRY';
+  background: #fff;
+  top: 985px;
+  left: 24%;
+  z-index: 1;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  font-size: 48px;
+  color: var(--dark-blue-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1400px) {
+
+  header {
+    height: 900px;
+  }
+  
+  .bg {
+    height: 900px;
+  }
+
+  main {
+      height: 6370px;
+    }
+
+    main .title h2 {
+      font-size: 50px;
+    }
+    
+    main .title p {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    main .title p span {
+      display: inline;
+    }
+
+    .gym {
+      margin-left: 93px;
+      height: 772px;
+    }
+
+    .gym::before {
+      top: 700px;
+    }
+
+    .bar {
+      margin-left: 93px;
+      height: 742px;
+    }
+
+    .bar::before {
+      top: 670px;
+    }
+
+    .spa {
+      margin-left: 93px;
+      height: 772px;
+    }
+
+    .spa::before {
+      top: 700px;
+    }
+
+    .swimpool {
+      margin-left: 93px;
+      height: 672px;
+    }
+
+    .swimpool::before {
+      top: 600px;
+    }
+
+    .restaurant {
+      margin-left: 93px;
+      height: 772px;
+    }
+
+    .restaurant::before {
+      top: 700px;
+    }
+
+    .laundry {
+      margin-left: 93px;
+      height: 778px;
+    }
+
+    .laundry::before {
+      top: 710px;
+    }
+
+
+
+}
+
+@media (max-width: 1100px) {
+  .gym::before {
+    font-size: 40px;
+  }
+
+  .bar::before {
+    font-size: 33px;
+  }
+
+  .spa::before {
+    font-size: 40px;
+  }
+
+  .swimpool::before {
+    font-size: 32px;
+  }
+
+  .restaurant::before {
+    font-size: 40px;
+  }
+
+  .laundry::before {
+    font-size: 40px;
+  }
+  
+}
+
+@media (max-width: 800px) {
+
+  .wrapper {
+    max-width: 400px;
+  }
+
+  .mobile-logo {
+    left: 10px;
+    width: 75px;
+    height: 50px;
+  }
+
+  .mobile-logo h1 {
+    font-size: 15px;
+  }
+
+  .mobile-logo p {
+    font-size: 5px;
+    margin-left: 25px;
+    letter-spacing: 2px;
+  }
+
+  .menu-icon img {
+    width: 30px;
+  }
+
+  .menu-icon {
+    left: 20px;
+    width: 30px;
+    height: 40px;
+  }
+
+  .mobile-menu-container.active {
+    height: 900px;
+
+  }
+
+  .text-section {
+    width: 200px;
+  }
+
+  .text-section h6 {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .text-section h1 {
+    width: 100%;
+    font-size: 54px;
+    letter-spacing: 0.01em;
+    margin-top: -5px;
+  }
+
+  .text-section h3 {
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    margin-top: 5px;
+  }
+
+  .text-section p {
+    width: 100%;
+    font-size: 10px;
+
+  }
+
+  .book-card {
+    left: 43%;
+  
+  }
+  .scroll-card {
+    left: 50%;
+  
+  }
+  
+  main  {
+    height: 5870px;
+  }
+
+  main .title {
+    margin: 82px 10px 82px 10px;
+  }
+
+  main .title h2 {
+    font-size: 40px;
+    margin-bottom: -30px;
+  }
+  
+  main .title p {
+    font-size: 12px;
+  }
+  .gym {
+    margin: 42px 0 0 53px;
+  }
+
+  .gym::before {
+    font-size: 25px;
+  }
+
+  .bar {
+    margin: 102px 0 0 53px;
+  }
+
+  .bar::before {
+    font-size: 20px;
+  }
+
+  .spa {
+    margin: 102px 0 0 53px;
+  }
+
+  .spa::before {
+    font-size: 25px;
+  }
+
+  .swimpool {
+    margin: 102px 0 0 53px;
+  }
+
+  .swimpool::before {
+    font-size: 17px;
+  }
+
+  .restaurant {
+    margin: 102px 0 0 53px;
+  }
+
+  .restaurant::before {
+    font-size: 25px;
+  }
+
+  .laundry {
+    margin: 102px 0 -80px 53px;
+  }
+
+  .laundry::before {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    max-width: 200px;
+  }
+
+  .book-card {
+    left: 23%;
+  
+  }
+  .scroll-card {
+    left: 40%;
+}
+
+main  {
+  height: 5670px;
+}
+
+main .title p {
+  font-size: 10px;
+}
+.gym {
+  margin: 52px 0 0 33px;
+}
+
+.gym::before {
+  font-size: 15px;
+}
+
+.bar {
+  margin: 52px 0 0 33px;
+}
+
+.bar::before {
+  font-size: 13px;
+}
+
+.spa {
+  margin: 52px 0 0 33px;
+}
+
+.spa::before {
+  font-size: 15px;;
+}
+
+.swimpool {
+  margin: 52px 0 0 33px;
+}
+
+.swimpool::before {
+  font-size: 10px;
+}
+
+.restaurant {
+  margin: 52px 0 0 33px;
+}
+
+.restaurant::before {
+  font-size: 15px;
+}
+
+.laundry {
+  margin: 52px 0 -40px 33px;
+}
+
+.laundry::before {
+  font-size: 15px;
+}
+}
+

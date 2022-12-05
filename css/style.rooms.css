@@ -1,0 +1,856 @@
+header {
+    background: url("/images/apartment-bed.png") no-repeat center center/cover;
+}
+
+
+/* main */
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 4891px;
+}
+
+main .title {
+    width: 85%;
+    margin: 81px 208px 81px 208px;
+}
+
+main .title h2 {
+    height: 72px;
+    font-family: 'Assistant';
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--dark-blue-color);
+}
+
+main .title p {
+    height: 107px;
+    margin-top: 29px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: var(--dark-blue-color);
+}
+
+.devon {
+    position: relative;;
+    margin-left: 100px;
+    width: 90%;
+    height: 1301px;
+}
+
+.devon img{
+    width: 100%;
+    height: 100%;
+}
+
+.devon .devonbg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 926px;
+    background: var(--dark-blue-color);
+}
+
+.devon .icons {
+    width: 5%;
+    height: 20px;
+    position: absolute;
+    top: 868px;
+    left: 47%;
+}
+
+.devon .icons div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.devon .sroom {
+    width: 100%;
+    height: 141px;
+    position: absolute;
+    top: 926px;
+    left: 0px;
+    background: var(--dark-blue-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.devon .sroom h1 {
+    width: 30%;
+    height: 59px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+.devon .details {
+    width: 100%;
+    height: 235px;
+    position: absolute;
+    top: 1063px;
+    left: 0px;
+    background: #FFFFFF;
+    border: 2px solid var(--dark-blue-color);
+    border-radius: 0px 0px 15px;
+    -webkit-border-radius: 0px 0px 15px;
+    -moz-border-radius: 0px 0px 15px;
+    -ms-border-radius: 0px 0px 15px;
+    -o-border-radius: 0px 0px 15px;
+}
+
+.devon .details .veiwr {
+    width: 70%;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 79px 162px 78px 166px;
+}
+
+.devon .details .veiwr div {
+    width: 372px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+.devon .details .veiwr div span {
+    width: 51px;
+    height: 51px;
+    background: var(--dark-orange-color);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.devon .details .veiwr div span::before {
+    content: '';
+    width: 30px;
+    height: 0px;
+    position: absolute;
+    top: 115px;
+    left: 175px;
+    border: 3px solid #ffffff;
+    background: #ffffff;
+}
+
+.devon .details .veiwr div span::after {
+    content: '';
+    width: 0px;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    left: 190px;
+    border: 3px solid #ffffff;
+    background: #ffffff;
+}
+
+.devon .details .veiwr div h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--dark-blue-color);
+}
+
+.devon .details .veiwr button {
+    width: 288px;
+    height: 78px;
+    padding: 24px 43px 25px 44px;
+    background: var(--dark-orange-color);
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+}
+
+.double {
+    position: relative;
+    margin: 80px 0 0 100px;
+    width: 90%;
+    height: 1301px;
+}
+
+.double img{
+    width: 100%;
+    height: 100%;
+}
+
+.double .doublebg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 926px;
+    background: var(--dark-blue-color);
+}
+
+.double .icons {
+    width: 5%;
+    height: 20px;
+    position: absolute;
+    top: 868px;
+    left: 47%;
+}
+
+.double .icons div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.double .sroom {
+    width: 100%;
+    height: 141px;
+    position: absolute;
+    top: 926px;
+    left: 0px;
+    background: var(--dark-blue-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.double .sroom h1 {
+    width: 30%;
+    height: 59px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+.double .details {
+    width: 100%;
+    height: 235px;
+    position: absolute;
+    top: 1063px;
+    left: 0px;
+    background: #FFFFFF;
+    border: 2px solid var(--dark-blue-color);
+    border-radius: 0px 0px 15px;
+    -webkit-border-radius: 0px 0px 15px;
+    -moz-border-radius: 0px 0px 15px;
+    -ms-border-radius: 0px 0px 15px;
+    -o-border-radius: 0px 0px 15px;
+}
+
+.double .details .veiwr {
+    width: 70%;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 79px 162px 78px 166px;
+}
+
+.double .details .veiwr div {
+    width: 372px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+.double .details .veiwr div span {
+    width: 51px;
+    height: 51px;
+    background: var(--dark-orange-color);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.double .details .veiwr div span::before {
+    content: '';
+    width: 30px;
+    height: 0px;
+    position: absolute;
+    top: 115px;
+    left: 175px;
+    border: 3px solid #ffffff;
+    background: #ffffff;
+}
+
+.double .details .veiwr div span::after {
+    content: '';
+    width: 0px;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    left: 190px;
+    border: 3px solid #ffffff;
+    background: #ffffff;
+}
+
+.double .details .veiwr div h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--dark-blue-color);
+}
+
+.double .details .veiwr button {
+    width: 288px;
+    height: 78px;
+    padding: 24px 43px 25px 44px;
+    background: var(--dark-orange-color);
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+}
+
+.fred {
+    position: relative;
+    margin: 80px 0 0 100px;
+    width: 90%;
+    height: 1301px;
+}
+
+.fred img{
+    width: 100%;
+    height: 100%;
+}
+
+.fred .fredbg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 926px;
+    background: var(--dark-blue-color);
+}
+
+.fred .icons {
+    width: 5%;
+    height: 20px;
+    position: absolute;
+    top: 869px;
+    right: 47%;
+}
+
+.fred .icons div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fred .sroom {
+    width: 100%;
+    height: 141px;
+    position: absolute;
+    top: 926px;
+    left: 0px;
+    background: var(--dark-blue-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fred .sroom h1 {
+    width: 30%;
+    height: 59px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+.fred .details {
+    width: 100%;
+    height: 235px;
+    position: absolute;
+    top: 1063px;
+    left: 0px;
+    background: #FFFFFF;
+    border: 2px solid var(--dark-blue-color);
+    border-radius: 0px 0px 15px;
+    -webkit-border-radius: 0px 0px 15px;
+    -moz-border-radius: 0px 0px 15px;
+    -ms-border-radius: 0px 0px 15px;
+    -o-border-radius: 0px 0px 15px;
+}
+
+.fred .details .veiwr {
+    width: 70%;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 79px 162px 78px 166px;
+}
+
+.fred .details .veiwr div {
+    width: 372px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+.fred .details .veiwr div span {
+    width: 51px;
+    height: 51px;
+    background: var(--dark-orange-color);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.fred .details .veiwr div span::before {
+    content: '';
+    width: 30px;
+    height: 0px;
+    position: absolute;
+    top: 115px;
+    left: 175px;
+    border: 3px solid #ffffff;
+    background: #ffffff;
+}
+
+.fred .details .veiwr div span::after {
+    content: '';
+    width: 0px;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    left: 190px;
+    border: 3px solid #ffffff;
+    background: #ffffff;
+}
+
+.fred .details .veiwr div h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--dark-blue-color);
+}
+
+.fred .details .veiwr button {
+    width: 288px;
+    height: 78px;
+    padding: 24px 43px 25px 44px;
+    background: var(--dark-orange-color);
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+}
+
+  @media (max-width: 1400px) {
+
+    main .title {
+        margin: 81px 108px 81px 108px;
+    }
+    
+      main .title h2 {
+        font-size: 50px;
+      }
+      
+      main .title p {
+        font-size: 20px;
+        text-align: center;
+      }
+
+      main .title p span {
+        display: inline;
+      }
+
+      .devon {
+        margin-left: 59px;
+    }
+
+    .devon .sroom h1 {
+        font-size: 38px;;
+    }
+
+    .devon .details .veiwr {
+        width: 80%;
+    }
+
+      .double {
+        margin-left: 59px;
+    }
+
+    .double .sroom h1 {
+        font-size: 35px;;
+    }
+
+    .double .details .veiwr {
+        width: 80%;
+    }
+
+      .fred {
+        margin-left: 59px;
+    }
+
+    .fred .sroom h1 {
+        font-size: 38px;;
+    }
+
+    .fred .details .veiwr {
+        width: 80%;
+    }
+
+}
+  @media (max-width: 1100px) {
+
+    main .title {
+        margin: 81px 98px 81px 98px;
+    }
+    
+      main .title h2 {
+        font-size: 40px;
+      }
+      
+      main .title p {
+        font-size: 18px;
+      }
+
+      .devon {
+        margin-left: 49px;
+    }
+
+    .devon .sroom h1 {
+        font-size: 27px;;
+    }
+
+    .devon .details .veiwr {
+        width: 50%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: inherit;
+    }
+
+    .devon .details .veiwr div span::before {
+        top: 100px;
+    }
+    
+    .devon .details .veiwr div span::after {
+        top: 85px;
+    }
+
+      .double {
+        margin-left: 49px;
+    }
+
+    .double .sroom h1 {
+        font-size: 25px;;
+    }
+
+    .double .details .veiwr {
+        width: 50%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: inherit;
+    }
+
+    .double .details .veiwr div span::before {
+        top: 100px;
+    }
+    
+    .double .details .veiwr div span::after {
+        top: 85px;
+    }
+
+      .fred {
+        margin-left: 49px;
+    }
+
+    .fred .sroom h1 {
+        font-size: 27px;;
+    }
+
+    .fred .details .veiwr {
+        width: 50%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: inherit;
+    }
+
+    .fred .details .veiwr div span::before {
+        top: 100px;
+    }
+    
+    .fred .details .veiwr div span::after {
+        top: 85px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+      main .title {
+        margin: 82px 43px 82px 43px;
+      }
+
+      main .title h2 {
+        font-size: 30px;
+      }
+      
+      main .title p {
+        font-size: 13px;
+        margin-top: 14px;
+      }
+
+      .devon {
+        margin-left: 20px;
+        width: 95%;
+    }
+
+    .devon .sroom h1 {
+        font-size: 17px;
+    }
+
+    .devon .details .veiwr {
+        justify-content: start;
+    }
+    .devon .details .veiwr div {
+        width: 100%;
+        align-items: center;
+        justify-content: start;
+    
+    }
+
+    .devon .details .veiwr div h2 {
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .devon .details .veiwr button {
+        width: 80%;
+        height: 38px;
+        font-size: 9px;
+        line-height: 10px;
+    
+    }
+
+      .double {
+        margin-left: 20px;
+        width: 95%;
+    }
+
+    .double .sroom h1 {
+        font-size: 17px;
+    }
+
+    .double .details .veiwr {
+        justify-content: start;
+    }
+    .double .details .veiwr div {
+        width: 100%;
+        align-items: center;
+        justify-content: start;
+    
+    }
+
+    .double .details .veiwr div h2 {
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .double .details .veiwr button {
+        width: 80%;
+        height: 38px;
+        font-size: 9px;
+        line-height: 10px;
+    
+    }
+
+      .fred {
+        margin-left: 20px;
+        width: 95%;
+    }
+
+    .fred .sroom h1 {
+        font-size: 17px;
+    }
+
+    .fred .details .veiwr {
+        justify-content: start;
+    }
+    .fred .details .veiwr div {
+        width: 100%;
+        align-items: center;
+        justify-content: start;
+    
+    }
+
+    .fred .details .veiwr div h2 {
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .fred .details .veiwr button {
+        width: 80%;
+        height: 38px;
+        font-size: 9px;
+        line-height: 10px;
+    
+    }
+
+
+    
+}
+@media (max-width: 500px) {
+
+    main {
+        height: 4491px;
+    }
+
+      main .title {
+        margin: 82px 23px 82px 23px;
+      }
+
+      main .title h2 {
+        font-size: 20px;
+      }
+      
+      main .title p {
+        font-size: 8px;
+        margin-top: 14px;
+      }
+
+      .devon {
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .devon .sroom h1 {
+        font-size: 8px;
+    }
+
+    .devon .details {
+        height: 135px;
+    }
+    .devon .details .veiwr {
+        display: inline;
+    }
+
+    .devon .details .veiwr div span::before {
+        top: 40px;
+        left: 7px;
+    }
+    
+    .devon .details .veiwr div span::after {
+        top: 25px;
+        left: 22px;
+    }
+
+    .devon .details .veiwr button {
+        display: block;
+    
+    }
+
+
+      .double {
+        margin: 10px 0 0 10px;
+        width: 90%;
+    }
+
+    .double .sroom h1 {
+        font-size: 7px;
+    }
+
+    .double .details {
+        height: 135px;
+    }
+    .double .details .veiwr {
+        display: inline;
+    }
+
+    .double .details .veiwr div span::before {
+        top: 40px;
+        left: 7px;
+    }
+    
+    .double .details .veiwr div span::after {
+        top: 25px;
+        left: 22px;
+    }
+
+    .double .details .veiwr button {
+        display: block;
+    
+    }
+
+      .fred {
+        margin: 10px 0 -190px 10px;
+        width: 90%;
+    }
+
+    .fred .sroom h1 {
+        font-size: 10px;
+    }
+
+    .fred .details {
+        height: 135px;
+    }
+    .fred .details .veiwr {
+        display: inline;
+    }
+
+    .fred .details .veiwr div span::before {
+        top: 40px;
+        left: 7px;
+    }
+    
+    .fred .details .veiwr div span::after {
+        top: 25px;
+        left: 22px;
+    }
+
+    .fred .details .veiwr button {
+        display: block;
+    
+    }
+    
+}
